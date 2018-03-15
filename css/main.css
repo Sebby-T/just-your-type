@@ -11,6 +11,7 @@ html {
 }
 
 .opening-box {
+  max-width: 18em;
   border-top: 5px solid #000;
   border-bottom: 5px solid #000;
 }
@@ -34,9 +35,8 @@ html {
 
   .opening-box-postion {
     color: #fff;
-    max-width: 18em;
     position: absolute;
-    top: 20px;
+    top: 0;
     left: 50%;
     transform: translateX(-50%);
 
