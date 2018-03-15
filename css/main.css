@@ -15,11 +15,6 @@ html {
   border-bottom: 5px solid #000;
 }
 
-.opening-box-postion {
-  max-width: 18em;
-  margin: 0 auto;
-}
-
 .sun-background-color {
   background-color: #febb0b;
   color: #fff;
@@ -39,6 +34,7 @@ html {
 
   .opening-box-postion {
     color: #fff;
+    max-width: 18em;
     position: absolute;
     top: 0;
     left: 50%;
