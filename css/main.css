@@ -7,13 +7,14 @@ html {
 }
 
 .text-set-2 {
-  font-family: "Dosis", sans-serif;
+  font-family: Dosis, sans-serif;
 }
 
 .opening-box {
   border-top: 5px solid #000;
   border-bottom: 5px solid #000;
 }
+
 .opening-box-postion {
   max-width: 18em;
   margin: 0 auto;
