@@ -1,7 +1,63 @@
-.cutive {
-  font-family: 'Cutive', serif;
+html {
+  background-color: #9dafc6;
 }
 
-.dosis {
+.text-set-1 {
+  font-family: "Abril Fatface", cursive;
+}
+
+.text-set-2 {
   font-family: 'Dosis', sans-serif;
+}
+
+.opening-box {
+  border-top: 5px solid #000;
+  border-bottom: 5px solid #000;
+}
+
+.sun-background-color {
+  background-color: #febb0b;
+  color: #fff;
+}
+
+.moon-background-color {
+  background-color: #153a5a;
+  color: #fff;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .opening-box {
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+  }
+
+  .opening-box-postion {
+    color: #fff;
+    max-width: 18em;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+
+  }
+
+  .container {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .closing-box {
+    border: 10px solid #fff;
+  }
+
+  .closing-box-position {
+    color: #fff;
+    max-width: 25em;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
 }
