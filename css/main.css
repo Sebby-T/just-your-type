@@ -11,9 +11,12 @@ html {
 }
 
 .opening-box {
-  max-width: 18em;
   border-top: 5px solid #000;
   border-bottom: 5px solid #000;
+}
+.opening-box-postion {
+  max-width: 18em;
+  margin: 0 auto;
 }
 
 .sun-background-color {
