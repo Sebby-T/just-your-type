@@ -24,35 +24,18 @@
 @media only screen and (min-width: 38em) {
 
   .opening-box {
+    color: #fff;
     border-top: 5px solid #fff;
     border-bottom: 5px solid #fff;
   }
 
-  .opening-box-postion {
-    color: #fff;
-    max-width: 18em;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
-  .container {
-    position: relative;
-    overflow: hidden;
-  }
-
   .closing-box {
+    color: #fff;
     border: 10px solid #fff;
   }
 
-  .closing-box-position {
+  .citation {
     color: #fff;
-    max-width: 28em;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
   }
 
 }
